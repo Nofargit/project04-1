@@ -94,7 +94,7 @@
             </span> 
         </div>
             <br>
-            <label> City</label>
+            <label> Street</label>
             <div class="fields"  >               
                 <input type='text' placeholder="street" formControlName='street' />&nbsp;
                 <span *ngIf= 'newUser.controls.street.errors' >
@@ -105,9 +105,7 @@
             <br>
             <input type="submit" value="Sign Up"  [disabled]='!newUser.valid' />
         </div>
-            
-            
-        
+
         
         
     </form>
